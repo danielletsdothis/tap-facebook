@@ -7,6 +7,11 @@
     "unique_actions": {"$ref": "ads_action_stats.json"},
     "actions": {"$ref": "ads_action_stats.json"},
     "action_values": {"$ref": "ads_action_stats.json"},
+    "conversion_values": {"$ref": "ads_action_stats.json"},
+    "conversions": {"$ref": "ads_action_stats.json"},
+    "mobile_app_purchase_roas": {"$ref": "ads_action_stats.json"},
+    "website_purchase_roas": {"$ref": "ads_action_stats.json"},
+    "purchase_roas": {"$ref": "ads_action_stats.json"},
     "outbound_clicks": {"$ref": "ads_action_stats.json"},
     "unique_outbound_clicks": {"$ref": "ads_action_stats.json"},
     "video_30_sec_watched_actions": {"$ref": "ads_action_stats.json"},
@@ -333,12 +338,6 @@
       "type": [
         "null",
         "number"
-      ]
-    },
-    "reach": {
-      "type": [
-        "null",
-        "integer"
       ]
     }
   }
