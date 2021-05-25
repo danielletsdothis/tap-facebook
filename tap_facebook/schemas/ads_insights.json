@@ -12,6 +12,9 @@
     "mobile_app_purchase_roas": {"$ref": "ads_action_stats.json"},
     "website_purchase_roas": {"$ref": "ads_action_stats.json"},
     "purchase_roas": {"$ref": "ads_action_stats.json"},
+    "converted_product_quantity": {"$ref": "ads_action_stats.json"},
+    "converted_product_value": {"$ref": "ads_action_stats.json"},
+    "cost_per_conversion": {"$ref": "ads_action_stats.json"},
     "outbound_clicks": {"$ref": "ads_action_stats.json"},
     "unique_outbound_clicks": {"$ref": "ads_action_stats.json"},
     "video_30_sec_watched_actions": {"$ref": "ads_action_stats.json"},
@@ -34,6 +37,12 @@
       "format": "date-time"
     },
     "ad_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "account_currency": {
       "type": [
         "null",
         "string"
